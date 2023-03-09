@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECEBEB; 
+}
+.jumbotron{
+    padding: 5px;
+   text-align: center;
+}
+.jumbotron{
+    padding: 10px;
+    margin: 5px;
+}
+.jumbotron h1{
+    margin-bottom: 5px;
+}
+nav{
+    background-color: #F18336;
+    padding: 15px;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+.card{
+    background-color: #FDFDFD;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.card p{
+    padding: 5px;
+    margin-bottom: 5px;
+    float: right; 
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.card-content{
+    padding: 10px;
+    color: grey;
+}
+.card-content p{
+    margin-top: 20px;
+    color: rgba(39, 36, 36, 0.87);
+}
+.card-content a{
+   color: black;
+}
+.card-action{
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+}
+.container1{
+    flex-basis: 60%;
+    margin-bottom: 30px;
+}
+aside{
+    flex-basis: 25%;
+}
+.fake-container{
+    flex-basis: 15%;
+}
+aside .content{
+    background-color: #FDFDFD;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+}
+aside .content h3{
+    color:#027f92;
+    margin-bottom: 10px;
+}
